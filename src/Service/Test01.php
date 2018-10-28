@@ -18,4 +18,10 @@ class Test01
     public function getEchoFromT02() {
         echo $this->test02;
     }
+
+    public function getValFromT2()
+    {
+        // TODO: Implement __toString() method.
+        return $this->test02->parameter;
+    }
 }

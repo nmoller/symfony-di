@@ -35,3 +35,10 @@ dock-comp install
 dock-comp dump-autoload
 dock-php bin/app.php
 ```
+
+# Unit testing
+
+On implémente une manière simple de tester:
+```
+dock-php vendor/bin/simple-phpunit -c phpunit.xml tests/Service/TestTest01.php
+```

@@ -10,5 +10,8 @@
         "symfony/config": "^4.1",
         "symfony/yaml": "^4.1",
         "symfony/dependency-injection": "^4.1"
+    },
+    "require-dev": {
+        "symfony/phpunit-bridge": "^4.1"
     }
 }
