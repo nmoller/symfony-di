@@ -14,16 +14,15 @@
 
 
     <testsuites>
-        <testsuite name="Symfony PHPUnit Bridge Test Suite">
-            <directory>./tests/</directory>
+        <testsuite name="Di Test01">
+            <file>tests/Service/TestTest01.php</file>
         </testsuite>
     </testsuites>
 
     <filter>
         <whitelist>
-            <directory>./</directory>
+            <directory>./tests</directory>
             <exclude>
-                <directory>./Tests</directory>
                 <directory>./vendor</directory>
             </exclude>
         </whitelist>

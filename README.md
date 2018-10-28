@@ -42,3 +42,8 @@ On implémente une manière simple de tester:
 ```
 dock-php vendor/bin/simple-phpunit -c phpunit.xml tests/Service/TestTest01.php
 ```
+
+Le fichier `phpunit.xml` permet d'y ajouter plus de tests à la suite que sera lancée par
+```
+dock-php vendor/bin/simple-phpunit -c phpunit.xml
+```
