@@ -1,0 +1,14 @@
+{
+    "name": "nmoller/di01",
+    "description": "testing symfony dependency injection",
+    "autoload": {
+        "psr-4": {
+            "Nmoller\\": "src/"
+        }
+    },
+    "require": {
+        "symfony/config": "^4.1",
+        "symfony/yaml": "^4.1",
+        "symfony/dependency-injection": "^4.1"
+    }
+}
