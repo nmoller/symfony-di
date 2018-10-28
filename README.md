@@ -47,3 +47,7 @@ Le fichier `phpunit.xml` permet d'y ajouter plus de tests à la suite que sera l
 ```
 dock-php vendor/bin/simple-phpunit -c phpunit.xml
 ```
+
+Pour faire une utilisation plus avancée, lire
+
+https://phpunit.readthedocs.io/en/7.4/
