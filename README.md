@@ -2,6 +2,10 @@
 
 Le wiring se fait dans `config/services.yaml`. 
 
+De cette manière, vous avez centralisé l'instantiation et le passage de paramètres
+dans le fichier `service.yaml`.
+
+
 Comme d'habitude
 ```
 docker run --rm --interactive --tty -v ${PWD}:/app \
