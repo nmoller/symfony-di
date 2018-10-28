@@ -1,0 +1,12 @@
+parameters:
+    # ...
+    test02.param: Hello world
+
+services:
+    test02:
+        class:     Nmoller\Service\Test02
+        arguments: ['%test02.param%']
+    test01:
+        class:     Nmoller\Service\Test01
+        calls:
+            - [setTest02, ['@test02']]
